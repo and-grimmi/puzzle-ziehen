@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Puzzle</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body{
+      background-color: lightblue;
+    }
+
+            .images{
+                padding: 2px;
+                border: 3px solid white;
+                float: left;
+                margin: 5px;
+            }
+
+            .images img {
+                display: block;
+            }
+
+      .flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+
+		.btn-group{
+			position: relative;
+			margin-top: 1%;
+				margin-left: 36%;
+		}
+
+		.btn-group .button {
+			display: inline-block;
+			padding: 15px 25px;
+			font-size: 24px;
+			cursor: pointer;
+			text-align: center;
+			text-decoration: none;
+
+			color: white;
+			background-color: #4298E5;
+			border: none;
+			border-radius: 15px;
+			box-shadow: 0 9px #999;
+
+			width: 150px;
+
+
+		}
+
+
+
+		.btn-group .button:hover {
+			background-color: #1759BA;
+		}
+
+		.button:active {
+			background-color: #3e8e41;
+			box-shadow: 0 5px #666;
+			transform: translateY(4px);
+		}
+
+
+    </style>
+    </head>
+    <body>
+      <div class="flex">
+        <p>
+          <a href="PuzzleImage_Hard_1.html"><img class= "images" src="image01.png" align="middle" width="200" height="200" alt="Sam Safari" /></a> </br>
+          <a href="PuzzleImage_Hard_2.html"><img class= "images" src="image02.png" align="middle" width="200" height="200" alt="Sparschwein" /></a> </br>
+
+        </p>
+
+        <p>
+          <a href="PuzzleImage_Hard_3.html"><img class= "images" src="image03.png" align="middle" width="200" height="200" alt="Raumschiff" /></a> </br>
+          <a href="PuzzleImage_Hard_4.html"><img class= "images" src="image04.png" align="middle" width="200" height="200" alt="Weltall" /></a>
+
+          </p>
+      </div>
+			<div class="btn-group">
+				<p>
+					<a href="index.html" class="button">Zurück</a>
+				  <a href="PuzzleImage_Hard_Random.html" class="button">Zufälliges Bild</a>
+				</p>
+			</div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" type="text/javascript"></script>
+      <script type="text/javascript" src="puzzle.js"></script>
+    </body>
+  </html>
